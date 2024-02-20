@@ -156,11 +156,11 @@ export default {
 </script>
 <style scoped lang="scss">
 .bg-default{
-  background-color: #fa436a;
+  background-color: #8dc63f;
   color: #fff;
 }
 .text-default{
-  color: #fa436a;
+  color: #8dc63f;
 }
 .cu-item .title{
   margin-left: 20upx;

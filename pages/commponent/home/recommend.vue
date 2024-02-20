@@ -88,11 +88,11 @@ export default {
     modes: {
       //控制显示宫格类样式或者列表类样式
       type: Boolean,
-      default: true
+      default: false
     },
 	loading:{
 		type:Boolean,
-		default: true
+		default: false
 	},
 	bottoms:{
 		type:String,

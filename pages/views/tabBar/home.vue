@@ -7,9 +7,9 @@
 		<!-- 公告 -->
 		<notice :colors="colors" :noticeList="noticeList"></notice>
 		<!-- 栏目 -->
-		<column></column>
+		<!-- <column></column> -->
 		<!-- 广告图 -->
-		<banner></banner>
+		<!-- <banner></banner> -->
 		<!-- 热门标题 -->
 		<hotstitle :colors="colors"></hotstitle>
 		<!-- 推荐商品列表 -->
@@ -40,51 +40,19 @@
 				scrollShow: false, //是否显示悬浮菜单
 				categoryList: [{ //分类列表
 					id: 1,
-					name: '饼干',
+					name: '食品盲盒',
 					img: "/static/images/class/food-cookie.png"
 				}, {
 					id: 2,
-					name: '布丁',
-					img: "/static/images/class/food-pudding.png"
-				}, {
-					id: 3,
-					name: '甜甜圈',
-					img: "/static/images/class/food-doughnut.png"
-				}, {
-					id: 4,
-					name: '面包',
-					img: "/static/images/class/food-bread.png"
-				}, {
-					id: 5,
-					name: '薯片',
-					img: "/static/images/class/food-chips.png"
-				}, {
-					id: 6,
-					name: '热狗',
-					img: "/static/images/class/food-hotdog.png"
-				}, {
-					id: 7,
-					name: '冰淇淋',
-					img: "/static/images/class/food-popsicle.png"
-				}, {
-					id: 8,
-					name: '奶油草莓',
-					img: "/static/images/class/food-strawberry.png"
-				}, {
-					id: 9,
-					name: '披萨',
-					img: "/static/images/class/food-pizza.png"
-				}, {
-					id: 10,
-					name: '蛋黄酥',
-					img: "/static/images/class/food-eggyolkcake.png"
-				}],
+					name: '商家入驻',
+					img: "/static/images/log.png"
+				},],
 				// 商品列表
 				dataList: [{
-						title: 'DUNKINDONUTS唐恩都乐美国甜甜圈6个礼盒装 随机搭配6款',
+						title: 'DUNKINDONUTS唐恩都乐美国甜甜圈盲盒',
 						type: 1,
 						goods_id: 201,
-						money: '35.90',
+						money: '19.90',
 						number: 1,
 						hmoney: '45.90',
 						img: '/static/images/goods/one.jpg',
@@ -386,11 +354,11 @@
 				}],
 				noticeList: [{
 						id: 1,
-						title: '甜品港湾,恬美生活'
+						title: '全都吃光光'
 					},
 					{
 						id: 2,
-						title: '将来有太多未知的甜等待你去尝试'
+						title: '节约粮食'
 					}
 				]
 			};

@@ -3,8 +3,8 @@ export default {
   themeList: [{
     title: '官方',
     name: 'default',
-    color: '#fa436a',
-    tabList: ["/static/images/tabBar/home-default.png", "/static/images/tabBar/class-default.png", "/static/images/tabBar/cart-default.png", "/static/images/tabBar/user-default.png"]
+    color: '#8dc63f',
+    tabList: ["/static/images/tabBar/tab-home-olive.png", "/static/images/tabBar/tab-cate-olive.png", "/static/images/tabBar/tab-cart-olive.png", "/static/images/tabBar/tab-user-olive.png"]
   }, {
     title: '嫣红',
     name: 'red',
@@ -20,11 +20,6 @@ export default {
     name: 'yellow',
     color: '#fbbd08',
     tabList: ["/static/images/tabBar/tab-home-yellow.png", "/static/images/tabBar/tab-cate-yellow.png", "/static/images/tabBar/tab-cart-yellow.png", "/static/images/tabBar/tab-user-yellow.png"]
-  }, {
-    title: '橄榄',
-    name: 'olive',
-    color: '#8dc63f',
-    tabList: ["/static/images/tabBar/tab-home-olive.png", "/static/images/tabBar/tab-cate-olive.png", "/static/images/tabBar/tab-cart-olive.png", "/static/images/tabBar/tab-user-olive.png"]
   }, {
     title: '森绿',
     name: 'green',
