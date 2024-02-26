@@ -41,7 +41,7 @@ export default {
   border-radius: 10upx;
 }
 .category {
-  width: 20%;
+  width: 50%;
   margin-top: 50upx;
   display: flex;
   flex-wrap: wrap;

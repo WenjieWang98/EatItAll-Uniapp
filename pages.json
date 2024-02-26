@@ -324,7 +324,7 @@
                 "pagePath" : "pages/views/tabBar/category",
                 "iconPath" : "/static/images/tabBar/class.png",
                 "selectedIconPath" : "/static/images/tabBar/class-default.png",
-                "text" : "分类"
+                "text" : "地图"
             },
             {
                 "pagePath" : "pages/views/tabBar/cart",
