@@ -491,11 +491,11 @@ var _default = {
       locations: {},
       loading: true,
       swiperList: [{
-        img: 'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=339984553,3509384023&fm=26&gp=0.jpg'
+        img: 'http://img10.360buyimg.com/n1/jfs/t1/71401/15/15968/470755/5ddb8ecaEe6a5ce65/140942226e7c7551.jpg'
       }, {
-        img: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1786439814,215205363&fm=26&gp=0.jpg'
+        img: '/static/images/goods/four.jpg'
       }, {
-        img: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600399666309&di=3670afbef52571b71b98f4562043498e&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F8%2F57ea3c2d57be6.jpg'
+        img: 'http://img12.360buyimg.com/n1/jfs/t1/127005/26/7147/367042/5f0eb18cE9efa12ea/1a8363f7ce5a06cb.jpg'
       }],
       noticeList: [{
         id: 1,

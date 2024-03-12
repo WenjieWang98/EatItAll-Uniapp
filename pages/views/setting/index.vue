@@ -6,7 +6,7 @@
     <item-cell cellname="意见反馈" ></item-cell>
    </view>
    <!-- 选择主题 -->
-   <view class="cu-list menu sm-border card-menu">
+   <!-- <view class="cu-list menu sm-border card-menu">
 			<view class="cu-item">
 				<view class="content flex align-center">
 					<text :class="'cuIcon-colorlens text-' + themeColor.name"></text>
@@ -19,9 +19,9 @@
 					</button>
 				</view>
 			</view>
-		</view>
+		</view> -->
     <!-- 选择颜色模态框 -->
-    <view :class="'cu-modal ' + (colorModal == true?'show':'')">
+    <!-- <view :class="'cu-modal ' + (colorModal == true?'show':'')">
 			<view class="cu-dialog">
 				<view class="cu-bar justify-end solid-bottom">
 					<view class="content">选择颜色</view>
@@ -37,7 +37,7 @@
 					</view>
 				</view>
 			</view>
-		</view>
+		</view> -->
     <!-- 退出登录 -->
     <view class="exit" :style="'color:' + themeColor.color" @tap="onexit">
       退出登录

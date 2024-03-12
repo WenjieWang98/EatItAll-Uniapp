@@ -10,7 +10,7 @@
         <text>{{userdata.nickName || '登录'}}</text>
       </view>
   </view>
-  <view class="vip">
+  <!-- <view class="vip">
         <image src="/static/images/user/vip-card.png" class="vip_bg"></image>
         <view class="vipname">
           <text class="iconfont icon-zuanshi zuanshi"></text>
@@ -22,7 +22,7 @@
         <view class="banquan">
           商城版权所有©
         </view>
-   </view>
+   </view> -->
 </view>
 <!-- 中间菜单栏 -->
 <!-- #ifndef H5 -->
@@ -116,18 +116,6 @@ export default {
         icon: 'icon-shoucang',
         url: '/pages/views/user/mycollection',
         id: 1,
-        elseUrl: ''
-      }, {
-        name: '地址管理',
-        icon: 'icon-dizhi',
-        url: '/pages/views/user/myaddress',
-        id: 2,
-        elseUrl: ''
-      },{
-        name: '分销中心',
-        icon: 'icon-fenxiao',
-        url: '/pages/views/user/mydistribution',
-        id: 6,
         elseUrl: ''
       }, {
         name: '分享',

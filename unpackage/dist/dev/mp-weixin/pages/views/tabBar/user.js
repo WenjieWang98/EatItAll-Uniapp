@@ -280,18 +280,6 @@ var _default = {
         id: 1,
         elseUrl: ''
       }, {
-        name: '地址管理',
-        icon: 'icon-dizhi',
-        url: '/pages/views/user/myaddress',
-        id: 2,
-        elseUrl: ''
-      }, {
-        name: '分销中心',
-        icon: 'icon-fenxiao',
-        url: '/pages/views/user/mydistribution',
-        id: 6,
-        elseUrl: ''
-      }, {
         name: '分享',
         icon: 'icon-fenxiang1',
         url: '/pages/views/user/extension',
