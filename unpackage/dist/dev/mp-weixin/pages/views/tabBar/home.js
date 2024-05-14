@@ -267,7 +267,7 @@ var _default = {
           stock: 255
         }]
       }, {
-        title: '真巧 巧克力涂层甜甜圈 早餐蛋糕手撕面包休闲小零食办公室小吃零嘴下午茶点心 500g甜甜圈（拉花款）',
+        title: '面包盲盒',
         type: 2,
         goods_id: 202,
         money: '29.9',
@@ -308,146 +308,7 @@ var _default = {
           stock: 50
         }]
       }, {
-        title: '钟薛高 钟意你系列 特牛乳*4片 丝绒可可*4片 半巧主义*2 冰淇淋生鲜雪糕 10片装',
-        type: 3,
-        goods_id: 203,
-        money: '152.00 ',
-        number: 1,
-        hmoney: '162.00',
-        img: '/static/images/goods/there.jpg',
-        youhui: true,
-        baoyou: true,
-        status: 0,
-        //商品过期状态  0正常  1已失效
-        stock: 200,
-        sku: [],
-        skuArr: []
-      }, {
-        title: '农谣人 原味火山石烤肠1000g/约16根台式原味肠地道肠纯肉肠热狗肠台湾烤肠香肠烧烤肠半熟食火腿肠 台式原味地道肠1kg',
-        type: 6,
-        goods_id: 204,
-        money: '52.00 ',
-        number: 1,
-        hmoney: '99.00 ',
-        youhui: false,
-        baoyou: false,
-        stock: 100,
-        img: '/static/images/goods/six.jpg',
-        status: 0,
-        //商品过期状态  0正常  1已失效
-        sku: [{
-          skuname: '口味',
-          sku_id: 1,
-          child: [{
-            tagname: '台式原味地道肠1kg',
-            id: 2041,
-            imgs: 'http://img10.360buyimg.com/n1/jfs/t1/118993/11/329/175715/5e8ac0afE94234346/3ceb1344cf34d655.jpg',
-            money: '52.00 '
-          }, {
-            tagname: '台式黑椒味地道肠1kg',
-            id: 2042,
-            imgs: 'http://img11.360buyimg.com/n1/jfs/t1/114876/9/17594/220403/5f5ae35bEc7bb735b/bcf0c1017e86894c.png',
-            money: '53.50'
-          }]
-        }],
-        skuArr: [{
-          goods_sku_arr: ['2041'],
-          goods_sku_text: '台式原味地道肠1kg',
-          img: 'http://img10.360buyimg.com/n1/jfs/t1/118993/11/329/175715/5e8ac0afE94234346/3ceb1344cf34d655.jpg',
-          money: '52.00',
-          stock: 50
-        }, {
-          goods_sku_arr: ['2042'],
-          goods_sku_text: '台式黑椒味地道肠1kg',
-          img: 'http://img11.360buyimg.com/n1/jfs/t1/114876/9/17594/220403/5f5ae35bEc7bb735b/bcf0c1017e86894c.png',
-          money: '53.50',
-          stock: 50
-        }]
-      }, {
-        title: '巧妈妈 鸡蛋布甸 下午茶休闲零食儿童果冻布丁125g双层果酱味smzdm 4杯鸡蛋布甸（双层）',
-        type: 4,
-        goods_id: 205,
-        money: '25.80',
-        number: 1,
-        hmoney: 35.00,
-        img: '/static/images/goods/four.jpg',
-        youhui: true,
-        baoyou: false,
-        stock: 500,
-        status: 0,
-        //商品过期状态  0正常  1已失效
-        skuArr: [{
-          goods_sku_arr: ['10', '40'],
-          goods_sku_text: '鸡蛋布旬 4杯装',
-          img: '/static/images/goods/four.jpg',
-          money: '25.80',
-          stock: 50
-        }, {
-          goods_sku_arr: ['10', '50'],
-          goods_sku_text: '鸡蛋布旬 6杯装',
-          img: '/static/images/goods/four.jpg',
-          money: '32.80',
-          stock: 10
-        }, {
-          goods_sku_arr: ['10', '60'],
-          goods_sku_text: '鸡蛋布旬 8杯装',
-          img: '/static/images/goods/four.jpg',
-          money: '52.80',
-          stock: 60
-        }, {
-          goods_sku_arr: ['20', '60'],
-          goods_sku_text: '乳酸菌布甸（草莓酱 8杯装）',
-          img: 'http://img11.360buyimg.com/n1/jfs/t1/97403/35/15115/138620/5e6eeae8E8dbb7c3b/90a57a2a3e696b80.jpg',
-          money: '52.80',
-          stock: 100
-        }, {
-          goods_sku_arr: ['30', '50'],
-          goods_sku_text: '乳酸菌布甸（蓝莓酱 8杯装）',
-          img: 'http://img12.360buyimg.com/n1/jfs/t1/127005/26/7147/367042/5f0eb18cE9efa12ea/1a8363f7ce5a06cb.jpg',
-          money: '32.80',
-          stock: 1300
-        }],
-        sku: [{
-          sku_id: 1,
-          skuname: '口味',
-          child: [{
-            tagname: '鸡蛋布旬',
-            id: 10,
-            imgs: '/static/images/goods/four.jpg',
-            money: '25.80'
-          }, {
-            tagname: '乳酸菌布甸（草莓酱）',
-            id: 20,
-            imgs: 'http://img11.360buyimg.com/n1/jfs/t1/97403/35/15115/138620/5e6eeae8E8dbb7c3b/90a57a2a3e696b80.jpg',
-            money: '14.80'
-          }, {
-            tagname: '乳酸菌布甸（蓝莓酱）',
-            id: 30,
-            imgs: 'http://img12.360buyimg.com/n1/jfs/t1/127005/26/7147/367042/5f0eb18cE9efa12ea/1a8363f7ce5a06cb.jpg',
-            money: '30.80'
-          }]
-        }, {
-          sku_id: 2,
-          skuname: '数量',
-          child: [{
-            tagname: '4杯装',
-            id: 40,
-            imgs: '',
-            money: '25.80'
-          }, {
-            tagname: '6杯装',
-            id: 50,
-            imgs: '',
-            money: '32.80'
-          }, {
-            tagname: '8杯装',
-            id: 60,
-            imgs: '',
-            money: '52.80'
-          }]
-        }]
-      }, {
-        title: '草莓云南夏季草莓新鲜水果3斤礼盒装 露天种植现摘现发 3斤精品装（4盒顺丰空运）',
+        title: '水果3斤盲盒',
         type: 5,
         goods_id: 206,
         money: '59.90',
